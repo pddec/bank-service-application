@@ -1,0 +1,16 @@
+spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+
+camunda:
+  bpm:
+    admin-user:
+      id: demo
+      password: demo
+    default-serialization-format: application/json
+    generic-properties:
+      properties:
+        history-time-to-live: P1D
+
+logging:
+  level:
+    org.camunda.bpm.engine: info
+    org.camunda.bpm: info

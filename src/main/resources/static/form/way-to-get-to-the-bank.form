@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "label": "Walk Or AppCar",
+      "values": [
+        {
+          "label": "Walk",
+          "value": "walk"
+        },
+        {
+          "label": "App Car",
+          "value": "appCar"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_02ifqp8",
+        "columns": null
+      },
+      "id": "Field_0y0tkos",
+      "key": "transportMode",
+      "description": "Walk Or App Car",
+      "defaultValue": "walk",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cost of App Car",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1rxoqy1",
+        "columns": null
+      },
+      "id": "Field_16q6pwi",
+      "key": "transport_app_car",
+      "description": "Cost of App Car",
+      "defaultValue": "0.0",
+      "validate": {
+        "pattern": "",
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1l5drwh",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.42.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.24.0",
+  "schemaVersion": 19
+}
